@@ -1,10 +1,10 @@
 {
-  "name": "phosphor-react",
+  "name": "phosphor-solid",
   "version": "1.1.2",
   "description": "A clean and friendly icon family for React",
   "author": "rektdeckard",
   "license": "MIT",
-  "repository": "phosphor-icons/phosphor-react",
+  "repository": "phosphor-solid",
   "homepage": "https://phosphoricons.com",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build",
+    "build": "tsdx build --format amd",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
