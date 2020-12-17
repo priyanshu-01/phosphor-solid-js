@@ -1,134 +1,51 @@
 /* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import  { useContext  } from "solid-js";
+import { IconContext } from "../lib";
 
-const renderPathFor = (
-  weight: string,
-  color: string
-): React.ReactNode | null => {
+const renderPathFor = (weight: string, color: string) => {
   switch (weight) {
     case "bold":
       return (
         <>
-          <polyline
-            points="172 104 113.333 160 84 132"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
+          <polyline points="172 104 113.333 160 84 132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
         </>
-      );
+      )
     case "duotone":
       return (
         <>
-          <circle cx="128" cy="128" r="96" opacity="0.2" />
-          <polyline
-            points="172 104 113.333 160 84 132"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <circle cx="128" cy="128" r="96" opacity="0.2"/>
+  <polyline points="172 104 113.333 160 84 132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
         </>
-      );
+      )
     case "fill":
       return (
         <>
-          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm49.53125,85.78906-58.67187,56a8.02441,8.02441,0,0,1-11.0625,0l-29.32813-28a8.00675,8.00675,0,0,1,11.0625-11.57812l23.79687,22.72656,53.14063-50.72656a8.00675,8.00675,0,0,1,11.0625,11.57812Z" />
+          <path d="M128,24A104,104,0,1,0,232,128,104.12041,104.12041,0,0,0,128,24Zm49.53125,85.78906-58.67187,56a8.02441,8.02441,0,0,1-11.0625,0l-29.32813-28a8.00675,8.00675,0,0,1,11.0625-11.57812l23.79687,22.72656,53.14063-50.72656a8.00675,8.00675,0,0,1,11.0625,11.57812Z"/>
         </>
-      );
+      )
     case "light":
       return (
         <>
-          <polyline
-            points="172 104 113.333 160 84 132"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
+          <polyline points="172 104 113.333 160 84 132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
         </>
-      );
+      )
     case "thin":
       return (
         <>
-          <polyline
-            points="172 104 113.333 160 84 132"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
+          <polyline points="172 104 113.333 160 84 132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
         </>
-      );
+      )
     case "regular":
       return (
         <>
-          <polyline
-            points="172 104 113.333 160 84 132"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <circle
-            cx="128"
-            cy="128"
-            r="96"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <polyline points="172 104 113.333 160 84 132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
         </>
-      );
+      )
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -137,7 +54,7 @@ const renderPathFor = (
   }
 };
 
-const CheckCircle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+const CheckCircle = (props: any, ref: any)  => {
   const { color, size, weight, mirrored, children, ...restProps } = props;
   const {
     color: contextColor,
@@ -160,12 +77,11 @@ const CheckCircle = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...restProps}
     >
       {children}
-      <rect width="256" height="256" fill="none" />
+      <rect width="256" height="256" fill="none"/>
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );
-});
+};
 
-CheckCircle.displayName = "CheckCircle";
 
 export default CheckCircle;

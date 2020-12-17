@@ -83,10 +83,10 @@ function generateComponents() {
       .join("");
     let componentString = `\
 /* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import  { useContext  } from "solid-js";
+import { IconContext } from "../lib";
 
-const renderPathFor = (weight: string, color: string): React.ReactNode | null => {
+const renderPathFor = (weight: string, color: string) => {
   switch (weight) {`;
 
     if (!checkFiles(icon)) {
@@ -118,7 +118,7 @@ const renderPathFor = (weight: string, color: string): React.ReactNode | null =>
   }
 };
 
-const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+const ${name} = (props: any, ref: any)  => {
   const { color, size, weight, mirrored, children, ...restProps } = props;
   const {
     color: contextColor,
@@ -144,10 +144,9 @@ const ${name} = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       <rect width="256" height="256" fill="none"/>
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
-  ); 
-});
+  );
+};
 
-${name}.displayName = "${name}";
 
 export default ${name};
 `;

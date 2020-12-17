@@ -1,138 +1,50 @@
 /* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import  { useContext  } from "solid-js";
+import { IconContext } from "../lib";
 
-const renderPathFor = (
-  weight: string,
-  color: string
-): React.ReactNode | null => {
+const renderPathFor = (weight: string, color: string) => {
   switch (weight) {
     case "bold":
       return (
         <>
-          <line
-            x1="127.99219"
-            y1="48.00288"
-            x2="127.99219"
-            y2="124.00288"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
-          <path
-            d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="24"
-          />
+          <line x1="127.99219" y1="48.00288" x2="127.99219" y2="124.00288" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+  <path d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
         </>
-      );
+      )
     case "duotone":
       return (
         <>
-          <line
-            x1="127.99219"
-            y1="48.00288"
-            x2="127.99219"
-            y2="124.00288"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <line x1="127.99219" y1="48.00288" x2="127.99219" y2="124.00288" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
         </>
-      );
+      )
     case "fill":
       return (
         <>
-          <path d="M128,23.99988a104,104,0,1,0,104,104A104.11786,104.11786,0,0,0,128,23.99988Zm-8.00781,32.00293a8,8,0,0,1,16,0v60a8,8,0,1,1-16,0ZM128,207.99988A79.98292,79.98292,0,0,1,83.53516,61.52136a8,8,0,1,1,8.91357,13.28711,63.99978,63.99978,0,1,0,71.08838-.00976,8,8,0,0,1,8.91016-13.28955A79.98322,79.98322,0,0,1,128,207.99988Z" />
+          <path d="M128,23.99988a104,104,0,1,0,104,104A104.11786,104.11786,0,0,0,128,23.99988Zm-8.00781,32.00293a8,8,0,0,1,16,0v60a8,8,0,1,1-16,0ZM128,207.99988A79.98292,79.98292,0,0,1,83.53516,61.52136a8,8,0,1,1,8.91357,13.28711,63.99978,63.99978,0,1,0,71.08838-.00976,8,8,0,0,1,8.91016-13.28955A79.98322,79.98322,0,0,1,128,207.99988Z"/>
         </>
-      );
+      )
     case "light":
       return (
         <>
-          <line
-            x1="127.99219"
-            y1="48.00288"
-            x2="127.99219"
-            y2="124.00288"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
-          <path
-            d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="12"
-          />
+          <line x1="127.99219" y1="48.00288" x2="127.99219" y2="124.00288" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+  <path d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
         </>
-      );
+      )
     case "thin":
       return (
         <>
-          <line
-            x1="127.99219"
-            y1="48.00288"
-            x2="127.99219"
-            y2="124.00288"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
-          <path
-            d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="8"
-          />
+          <line x1="127.99219" y1="48.00288" x2="127.99219" y2="124.00288" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+  <path d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
         </>
-      );
+      )
     case "regular":
       return (
         <>
-          <line
-            x1="127.99219"
-            y1="48.00288"
-            x2="127.99219"
-            y2="124.00288"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
-          <path
-            d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021"
-            fill="none"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="16"
-          />
+          <line x1="127.99219" y1="48.00288" x2="127.99219" y2="124.00288" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M176.00189,54.23268a88,88,0,1,1-96.00346-.00021" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
         </>
-      );
+      )
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -141,7 +53,7 @@ const renderPathFor = (
   }
 };
 
-const Power = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+const Power = (props: any, ref: any)  => {
   const { color, size, weight, mirrored, children, ...restProps } = props;
   const {
     color: contextColor,
@@ -164,12 +76,11 @@ const Power = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...restProps}
     >
       {children}
-      <rect width="256" height="256" fill="none" />
+      <rect width="256" height="256" fill="none"/>
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );
-});
+};
 
-Power.displayName = "Power";
 
 export default Power;

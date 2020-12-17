@@ -1,20 +1,19 @@
-import { createContext, ComponentPropsWithoutRef } from "react";
+import { createContext, JSX, Component } from "solid-js";
 
-export interface IconProps extends ComponentPropsWithoutRef<"svg"> {
+
+export interface IconProps extends JSX.SvgSVGAttributes<SVGSVGElement> {
   color?: string;
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
   mirrored?: boolean;
 }
 
-export type Icon = React.ForwardRefExoticComponent<
-  IconProps & React.RefAttributes<SVGSVGElement>
->;
+export type Icon = Component<IconProps>;
 
 export type IconContextProps = Required<
   Pick<IconProps, "color" | "size" | "weight" | "mirrored">
 > &
-  ComponentPropsWithoutRef<"svg">;
+JSX.SvgSVGAttributes<SVGSVGElement>;
 
 export const IconContext = createContext<IconContextProps>({
   color: "currentColor",

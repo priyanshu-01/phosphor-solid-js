@@ -1,114 +1,56 @@
 /* GENERATED FILE */
-import React, { forwardRef, useContext } from "react";
-import { IconProps, IconContext } from "../lib";
+import  { useContext  } from "solid-js";
+import { IconContext } from "../lib";
 
-const renderPathFor = (
-  weight: string,
-  color: string
-): React.ReactNode | null => {
+const renderPathFor = (weight: string, color: string) => {
   switch (weight) {
     case "bold":
       return (
         <>
-          <rect
-            x="40"
-            y="40"
-            width="176"
-            height="176"
-            rx="24"
-            strokeWidth="24"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <circle cx="104" cy="104" r="16" />
-          <circle cx="152" cy="152" r="16" />
+          <rect x="40" y="40" width="176" height="176" rx="24" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <circle cx="104" cy="104" r="16"/>
+  <circle cx="152" cy="152" r="16"/>
         </>
-      );
+      )
     case "duotone":
       return (
         <>
-          <rect x="40" y="40" width="176" height="176" rx="24" opacity="0.2" />
-          <rect
-            x="40"
-            y="40"
-            width="176"
-            height="176"
-            rx="24"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <circle cx="108" cy="108" r="12" />
-          <circle cx="148" cy="148" r="12" />
+          <rect x="40" y="40" width="176" height="176" rx="24" opacity="0.2"/>
+  <rect x="40" y="40" width="176" height="176" rx="24" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <circle cx="108" cy="108" r="12"/>
+  <circle cx="148" cy="148" r="12"/>
         </>
-      );
+      )
     case "fill":
       return (
         <>
-          <path d="M192,32H64A32.03667,32.03667,0,0,0,32,64V192a32.03667,32.03667,0,0,0,32,32H192a32.03667,32.03667,0,0,0,32-32V64A32.03667,32.03667,0,0,0,192,32Zm-84,88a12,12,0,1,1,12-12A12,12,0,0,1,108,120Zm40,40a12,12,0,1,1,12-12A12,12,0,0,1,148,160Z" />
+          <path d="M192,32H64A32.03667,32.03667,0,0,0,32,64V192a32.03667,32.03667,0,0,0,32,32H192a32.03667,32.03667,0,0,0,32-32V64A32.03667,32.03667,0,0,0,192,32Zm-84,88a12,12,0,1,1,12-12A12,12,0,0,1,108,120Zm40,40a12,12,0,1,1,12-12A12,12,0,0,1,148,160Z"/>
         </>
-      );
+      )
     case "light":
       return (
         <>
-          <rect
-            x="40"
-            y="40"
-            width="176"
-            height="176"
-            rx="24"
-            strokeWidth="12"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <circle cx="108" cy="108" r="10" />
-          <circle cx="148" cy="148" r="10" />
+          <rect x="40" y="40" width="176" height="176" rx="24" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <circle cx="108" cy="108" r="10"/>
+  <circle cx="148" cy="148" r="10"/>
         </>
-      );
+      )
     case "thin":
       return (
         <>
-          <rect
-            x="40"
-            y="40"
-            width="176"
-            height="176"
-            rx="24"
-            strokeWidth="8"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <circle cx="108" cy="108" r="8" />
-          <circle cx="148" cy="148" r="8" />
+          <rect x="40" y="40" width="176" height="176" rx="24" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <circle cx="108" cy="108" r="8"/>
+  <circle cx="148" cy="148" r="8"/>
         </>
-      );
+      )
     case "regular":
       return (
         <>
-          <rect
-            x="40"
-            y="40"
-            width="176"
-            height="176"
-            rx="24"
-            strokeWidth="16"
-            stroke={color}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            fill="none"
-          />
-          <circle cx="108" cy="108" r="12" />
-          <circle cx="148" cy="148" r="12" />
+          <rect x="40" y="40" width="176" height="176" rx="24" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <circle cx="108" cy="108" r="12"/>
+  <circle cx="148" cy="148" r="12"/>
         </>
-      );
+      )
     default:
       console.error(
         'Unsupported icon weight. Choose from "thin", "light", "regular", "bold", "fill", or "duotone".'
@@ -117,7 +59,7 @@ const renderPathFor = (
   }
 };
 
-const DiceTwo = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+const DiceTwo = (props: any, ref: any)  => {
   const { color, size, weight, mirrored, children, ...restProps } = props;
   const {
     color: contextColor,
@@ -140,12 +82,11 @@ const DiceTwo = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
       {...restProps}
     >
       {children}
-      <rect width="256" height="256" fill="none" />
+      <rect width="256" height="256" fill="none"/>
       {renderPathFor(weight ?? contextWeight, color ?? contextColor)}
     </svg>
   );
-});
+};
 
-DiceTwo.displayName = "DiceTwo";
 
 export default DiceTwo;
