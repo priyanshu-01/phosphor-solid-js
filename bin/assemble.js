@@ -21,11 +21,13 @@ function readFile(folder, pathname, weight) {
     )
     .replace(/<title.*/, "")
     .replace(/"#0+"/g, "{color}")
-    .replace(/fill\-rule/g, "fillRule")
-    .replace(/stroke-linecap/g, "strokeLinecap")
-    .replace(/stroke-linejoin/g, "strokeLinejoin")
-    .replace(/stroke-width/g, "strokeWidth")
-    .replace(/stroke-miterlimit/g, "strokeMiterlimit");
+
+    // Solid dont required camelCase
+    // .replace(/fill\-rule/g, "attr:fill-rule")
+    // .replace(/stroke-linecap/g, "attr:stroke-linecap")
+    // .replace(/stroke-linejoin/g, "attr:stroke-linejoin")
+    // .replace(/stroke-width/g, "attr:stroke-width")
+    // .replace(/stroke-miterlimit/g, "attr:stroke-miterlimit");
 }
 
 function readFiles() {

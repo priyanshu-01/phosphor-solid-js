@@ -7,26 +7,26 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="56.00244" y1="96" x2="56.00244" y2="168" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="104.00244" y1="96" x2="104.00244" y2="168" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="152.00244" y1="96" x2="152.00244" y2="168" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="200.00244" y1="96" x2="200.00244" y2="168" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="32.00244" y1="168" x2="224.00244" y2="168" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="56.00244" y1="96" x2="56.00244" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="104.00244" y1="96" x2="104.00244" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="152.00244" y1="96" x2="152.00244" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="200.00244" y1="96" x2="200.00244" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="32.00244" y1="168" x2="224.00244" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" opacity="0.2"/>
-  <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -41,37 +41,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <polygon points="32.002 96 224.002 96 128.002 32 32.002 96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="56.00244" y1="96" x2="56.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="104.00244" y1="96" x2="104.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="152.00244" y1="96" x2="152.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="200.00244" y1="96" x2="200.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="32.00244" y1="176" x2="224.00244" y2="176" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="16.00244" y1="208" x2="240.00244" y2="208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

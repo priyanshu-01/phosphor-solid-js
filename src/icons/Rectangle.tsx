@@ -7,14 +7,14 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "duotone":
       return (
         <>
           <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" opacity="0.2"/>
-  <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "fill":
@@ -26,19 +26,19 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="32.00781" y="48.00005" width="192" height="160" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     default:

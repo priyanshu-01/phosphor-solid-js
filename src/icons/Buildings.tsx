@@ -7,26 +7,26 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="67.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="79.99414" y1="151.98316" x2="107.99414" y2="151.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="67.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="179.99414" y1="175.98316" x2="187.99414" y2="175.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="179.99414" y1="135.98316" x2="187.99414" y2="135.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="67.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="79.99414" y1="151.98316" x2="107.99414" y2="151.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="67.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="179.99414" y1="175.98316" x2="187.99414" y2="175.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="179.99414" y1="135.98316" x2="187.99414" y2="135.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" opacity="0.2"/>
-  <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -40,37 +40,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <path d="M143.99414,223.98316v-184a8,8,0,0,0-8-8h-96a8,8,0,0,0-8,8v184" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M223.99414,223.98316v-120a8,8,0,0,0-8-8h-72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="63.99414" y1="71.98316" x2="95.99414" y2="71.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="79.99414" y1="151.98316" x2="111.99414" y2="151.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="63.99414" y1="191.98316" x2="95.99414" y2="191.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="175.99414" y1="175.98316" x2="191.99414" y2="175.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="175.99414" y1="135.98316" x2="191.99414" y2="135.98316" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

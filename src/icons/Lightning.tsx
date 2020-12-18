@@ -7,14 +7,14 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" opacity="0.2"/>
-  <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -26,19 +26,19 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <polygon points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

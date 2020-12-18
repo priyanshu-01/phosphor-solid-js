@@ -7,18 +7,18 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polyline points="95.887 60 95.887 136 183.887 136 215.887 200 239.887 192" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M163.20563,184.07319A64.00734,64.00734,0,1,1,103.88745,96h56" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polyline points="95.887 60 95.887 136 183.887 136 215.887 200 239.887 192" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M163.20563,184.07319A64.00734,64.00734,0,1,1,103.88745,96h56" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <circle cx="95.88745" cy="40" r="20" opacity="0.2"/>
-  <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -30,25 +30,25 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <circle cx="95.88745" cy="40" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="95.887 60 95.887 132 183.887 132 215.887 196 239.887 188" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M167.76447,164.00014A64.001,64.001,0,1,1,103.88745,96h56" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

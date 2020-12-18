@@ -7,16 +7,16 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polyline points="219.993 175.995 219.993 35.994 79.986 35.994" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <rect x="39.98633" y="75.99512" width="140.00586" height="140" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <polyline points="219.993 175.995 219.993 35.994 79.986 35.994" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <rect x="39.98633" y="75.99512" width="140.00586" height="140" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "duotone":
       return (
         <>
           <rect x="39.98633" y="71.99512" width="144.00586" height="144" opacity="0.2"/>
-  <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="39.98633" y="71.99512" width="144.00586" height="144" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="39.98633" y="71.99512" width="144.00586" height="144" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "fill":
@@ -31,22 +31,22 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <rect x="39.98633" y="71.99512" width="144.00586" height="144" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <rect x="39.98633" y="71.99512" width="144.00586" height="144" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <rect x="39.98633" y="71.99512" width="144.00586" height="144" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <rect x="39.98633" y="71.99512" width="144.00586" height="144" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="39.98633" y="71.99512" width="144.00586" height="144" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <polyline points="215.993 183.995 215.993 39.994 71.986 39.994" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="39.98633" y="71.99512" width="144.00586" height="144" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     default:

@@ -7,20 +7,20 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <path d="M80,127.98437a80,80,0,1,1,80,80H72A56,56,0,1,1,85.91924,97.7279" opacity="0.2"/>
-  <path d="M95.99414,207.98437h-24A56,56,0,1,1,85.91338,97.7279" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M79.99414,127.98437A80,80,0,1,1,223.99655,175.989" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="118.053 161.926 151.994 127.984 185.935 161.926" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="151.99414" y1="207.98437" x2="151.99414" y2="127.98437" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M95.99414,207.98437h-24A56,56,0,1,1,85.91338,97.7279" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M79.99414,127.98437A80,80,0,1,1,223.99655,175.989" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="118.053 161.926 151.994 127.984 185.935 161.926" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="151.99414" y1="207.98437" x2="151.99414" y2="127.98437" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -32,28 +32,28 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <path d="M96,207.98437H72A56,56,0,1,1,85.91924,97.7279" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M80,127.98437A80,80,0,1,1,224.00241,175.989" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <polyline points="118.059 161.926 152 127.984 185.941 161.926" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="152" y1="207.98437" x2="152" y2="127.98437" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

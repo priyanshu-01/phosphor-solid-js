@@ -7,20 +7,20 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polyline points="128 80 128 128 176 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="201.53911" y1="20.51977" x2="235.48023" y2="54.46089" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="20.51977" y1="54.46089" x2="54.46089" y2="20.51977" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <polyline points="128 80 128 128 176 128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="201.53911" y1="20.51977" x2="235.48023" y2="54.46089" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="20.51977" y1="54.46089" x2="54.46089" y2="20.51977" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <circle cx="128" cy="128" r="88" opacity="0.2"/>
-  <polyline points="128 72 128 128 184 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <polyline points="128 72 128 128 184 128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -36,28 +36,28 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <circle cx="128" cy="128" r="88" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <polyline points="128 72 128 128 184 128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <line x1="195.88225" y1="26.17662" x2="229.82338" y2="60.11775" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="26.17662" y1="60.11775" x2="60.11775" y2="26.17662" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

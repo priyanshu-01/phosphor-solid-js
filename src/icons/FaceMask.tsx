@@ -7,11 +7,11 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <path d="M208,136c0,50.95006-66.22217,68.789-78.16566,71.59207a8.00537,8.00537,0,0,1-3.66868,0C114.22217,204.789,48,186.95006,48,136V77.41626a8,8,0,0,1,5.02887-7.42781l72-28.8a8,8,0,0,1,5.94226,0l72,28.8A8,8,0,0,1,208,77.41626Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="88" y1="108" x2="168" y2="108" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M205.40982,152H220a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24H208" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M50.59121,152H36a24,24,0,0,1-24-24V104A24,24,0,0,1,36,80H48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <path d="M208,136c0,50.95006-66.22217,68.789-78.16566,71.59207a8.00537,8.00537,0,0,1-3.66868,0C114.22217,204.789,48,186.95006,48,136V77.41626a8,8,0,0,1,5.02887-7.42781l72-28.8a8,8,0,0,1,5.94226,0l72,28.8A8,8,0,0,1,208,77.41626Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="88" y1="108" x2="168" y2="108" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M205.40982,152H220a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24H208" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M50.59121,152H36a24,24,0,0,1-24-24V104A24,24,0,0,1,36,80H48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
@@ -20,11 +20,11 @@ const renderPathFor = (weight: string, color: string) => {
           <g opacity="0.2">
     <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z"/>
   </g>
-  <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -36,31 +36,31 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <path d="M216,136c0,51.50493-74.43964,69.17367-86.39,71.67832a7.80809,7.80809,0,0,1-3.21992,0C114.43964,205.17367,40,187.50493,40,136V77.60342a8,8,0,0,1,5.26606-7.51835l80-29.09091a8,8,0,0,1,5.46788,0l80,29.09091A8,8,0,0,1,216,77.60342Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="88" y1="112" x2="168" y2="112" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="88" y1="144" x2="168" y2="144" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M213.40982,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M42.59121,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

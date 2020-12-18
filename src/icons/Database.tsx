@@ -7,18 +7,18 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <ellipse cx="128" cy="80" rx="88" ry="48" opacity="0.2"/>
-  <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -30,25 +30,25 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <ellipse cx="128" cy="80" rx="88" ry="48" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M40,80v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V80" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M40,128v48c0,26.50967,39.39894,48,88,48s88-21.49033,88-48V128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

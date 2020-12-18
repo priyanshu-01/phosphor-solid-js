@@ -18,7 +18,8 @@
     "node": ">=10"
   },
   "keywords": [
-    "react",
+    "solid",
+    "solidjs",
     "icons",
     "svg",
     "phosphor",

@@ -7,9 +7,9 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <circle cx="128" cy="128" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <circle cx="128" cy="48" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <circle cx="128" cy="208" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <circle cx="128" cy="128" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="128" cy="48" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="128" cy="208" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
@@ -18,9 +18,9 @@ const renderPathFor = (weight: string, color: string) => {
           <circle cx="128" cy="128" r="24" opacity="0.1"/>
   <circle cx="128" cy="48" r="24" opacity="0.1"/>
   <circle cx="128" cy="208" r="24" opacity="0.1"/>
-  <circle cx="128" cy="128" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <circle cx="128" cy="48" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <circle cx="128" cy="208" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
+  <circle cx="128" cy="128" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <circle cx="128" cy="48" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <circle cx="128" cy="208" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -34,25 +34,25 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <circle cx="128" cy="128" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <circle cx="128" cy="48" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <circle cx="128" cy="208" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <circle cx="128" cy="128" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <circle cx="128" cy="48" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <circle cx="128" cy="208" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <circle cx="128" cy="128" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <circle cx="128" cy="48" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <circle cx="128" cy="208" r="24" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <circle cx="128" cy="128" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="128" cy="48" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="128" cy="208" r="24" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <circle cx="128" cy="128" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <circle cx="128" cy="48" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
-  <circle cx="128" cy="208" r="24" fill="none" stroke={color} strokeMiterlimit="10" strokeWidth="16"/>
+          <circle cx="128" cy="128" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <circle cx="128" cy="48" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
+  <circle cx="128" cy="208" r="24" fill="none" stroke={color} stroke-miterlimit="10" stroke-width="16"/>
         </>
       )
     default:

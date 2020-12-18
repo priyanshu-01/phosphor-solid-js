@@ -7,8 +7,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="32.00781" y="68.00005" width="192" height="144" rx="8" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <path d="M168,212V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V212" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <rect x="32.00781" y="68.00005" width="192" height="144" rx="8" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M168,212V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V212" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
@@ -16,8 +16,8 @@ const renderPathFor = (weight: string, color: string) => {
         <>
           <path d="M88,72V216l-47.99219,0a8,8,0,0,1-8-8v-128a8,8,0,0,1,8-8Z" opacity="0.2"/>
   <path d="M168.00781,72V216l47.99219,0a8,8,0,0,0,8-8v-128a8,8,0,0,0-8-8Z" opacity="0.2"/>
-  <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -29,22 +29,22 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <rect x="32.00781" y="72.00005" width="192" height="144" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

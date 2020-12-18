@@ -8,8 +8,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <g>
-    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   </g>
         </>
       )
@@ -17,8 +17,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <g>
-    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   </g>
         </>
       )
@@ -32,8 +32,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <g>
-    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
   </g>
         </>
       )
@@ -41,8 +41,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <g>
-    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
   </g>
         </>
       )
@@ -50,8 +50,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <g>
-    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+    <line x1="56" y1="132" x2="136" y2="132" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <path d="M184,208H56a36,36,0,0,0,36-36V84a44,44,0,0,1,75.11269-31.11271" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   </g>
         </>
       )

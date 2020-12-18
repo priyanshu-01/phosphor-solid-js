@@ -7,9 +7,9 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <line x1="160" y1="76" x2="96" y2="76" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="160" y1="116" x2="96" y2="116" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <line x1="160" y1="76" x2="96" y2="76" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="160" y1="116" x2="96" y2="116" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="184" r="16"/>
         </>
       )
@@ -17,9 +17,9 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" opacity="0.2"/>
-  <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="180" r="12"/>
         </>
       )
@@ -32,27 +32,27 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="180" r="10"/>
         </>
       )
     case "thin":
       return (
         <>
-          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="180" r="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <line x1="160" y1="72" x2="96" y2="72" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="104" x2="96" y2="104" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <rect x="32" y="56" width="192" height="144" rx="8" transform="translate(256 0) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="128" cy="180" r="12"/>
         </>
       )

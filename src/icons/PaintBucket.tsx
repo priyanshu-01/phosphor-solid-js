@@ -7,20 +7,20 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <path d="M204,208c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M204,208c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" opacity="0.2"/>
-  <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -36,28 +36,28 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <rect x="42.46089" y="60.11775" width="147.07821" height="135.7645" rx="8" transform="translate(-56.53405 119.51472) rotate(-45)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="128" cy="116.00586" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M208,196c0-19.99414,20-40,20-40s20,20.00586,20,40a20,20,0,0,1-40,0Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="113.85786" y1="101.86372" x2="49.85786" y2="37.86372" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

@@ -7,18 +7,18 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
-  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
           <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" opacity="0.2"/>
-  <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+  <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
@@ -30,25 +30,25 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
-  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="12"/>
+          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
-  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/>
+          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
-  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+          <path d="M61.66958,204.116,16,128l45.66958-76.116a8,8,0,0,1,6.85994-3.884H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.52952A8,8,0,0,1,61.66958,204.116Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="104.00005" x2="112" y2="152.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <line x1="160" y1="152.00005" x2="112" y2="104.00005" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

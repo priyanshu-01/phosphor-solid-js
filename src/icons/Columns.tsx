@@ -7,8 +7,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="-10" y="98" width="176" height="60" rx="8" transform="translate(206 50) rotate(90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="90" y="98" width="176" height="60" rx="8" transform="translate(306 -50) rotate(90)" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="-10" y="98" width="176" height="60" rx="8" transform="translate(206 50) rotate(90)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="90" y="98" width="176" height="60" rx="8" transform="translate(306 -50) rotate(90)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "duotone":
@@ -16,8 +16,8 @@ const renderPathFor = (weight: string, color: string) => {
         <>
           <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" opacity="0.2"/>
   <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" opacity="0.2"/>
-  <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "fill":
@@ -32,22 +32,22 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="-8" y="96" width="176" height="64" rx="8" transform="translate(208 48) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="88" y="96" width="176" height="64" rx="8" transform="translate(304 -48) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </>
       )
     default:

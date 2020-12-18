@@ -7,8 +7,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="40" y="48" width="176" height="160" rx="8" strokeWidth="24" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <line x1="216" y1="128" x2="40" y2="128" fill="none" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"/>
+          <rect x="40" y="48" width="176" height="160" rx="8" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="216" y1="128" x2="40" y2="128" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <circle cx="176" cy="88" r="16"/>
   <circle cx="176" cy="168" r="16"/>
         </>
@@ -18,8 +18,8 @@ const renderPathFor = (weight: string, color: string) => {
         <>
           <rect x="40" y="144" width="176" height="64" rx="8" opacity="0.2"/>
   <rect x="40" y="48" width="176" height="64" rx="8" opacity="0.2"/>
-  <rect x="40" y="144" width="176" height="64" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="48" width="176" height="64" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+  <rect x="40" y="144" width="176" height="64" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="48" width="176" height="64" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="180" cy="80" r="12"/>
   <circle cx="180" cy="176" r="12"/>
         </>
@@ -36,8 +36,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "light":
       return (
         <>
-          <rect x="40" y="144" width="176" height="64" rx="8" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="48" width="176" height="64" rx="8" strokeWidth="12" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="40" y="144" width="176" height="64" rx="8" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="48" width="176" height="64" rx="8" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="180" cy="80" r="10"/>
   <circle cx="180" cy="176" r="10"/>
         </>
@@ -45,8 +45,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "thin":
       return (
         <>
-          <rect x="40" y="144" width="176" height="64" rx="8" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="48" width="176" height="64" rx="8" strokeWidth="8" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="40" y="144" width="176" height="64" rx="8" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="48" width="176" height="64" rx="8" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="180" cy="176" r="8"/>
   <circle cx="180" cy="80" r="8"/>
         </>
@@ -54,8 +54,8 @@ const renderPathFor = (weight: string, color: string) => {
     case "regular":
       return (
         <>
-          <rect x="40" y="144" width="176" height="64" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-  <rect x="40" y="48" width="176" height="64" rx="8" strokeWidth="16" stroke={color} strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <rect x="40" y="144" width="176" height="64" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="48" width="176" height="64" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <circle cx="180" cy="80" r="12"/>
   <circle cx="180" cy="176" r="12"/>
         </>
