@@ -1,7 +1,9 @@
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
+<img src="https://solidjs.com/assets/img/logo/without-wordmark/logo.svg" width="128" align="right" />
 
 # phosphor-solid
-** This is a fork from [phosphoricons.com](https://phosphoricons.com)  all credits to its original creators
+**This is a fork from [phosphoricons.com](https://phosphoricons.com). All credits to its original creators**
+
 
 Phosphor is a flexible icon family for interfaces, diagrams, presentations — whatever, really. Explore all our icons at [phosphoricons.com](https://phosphoricons.com).
 
@@ -15,13 +17,13 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations — w
 ## Installation
 
 ```bash
-yarn add phosphor-react
+yarn add phosphor-solid
 ```
 
 or
 
 ```bash
-npm install --save phosphor-react
+npm install --save phosphor-solid
 ```
 
 ## Usage
@@ -29,9 +31,8 @@ npm install --save phosphor-react
 Simply import the icons you need, and add them anywhere in your render method. Phosphor supports tree-shaking, so your bundle only includes code for the icons you use.
 
 ```tsx
-import React from "react";
-import ReactDOM from "react-dom";
-import { Horse, Heart, Cube } from "phosphor-react";
+import {render} from 'solid-js';
+import { Horse, Heart, Cube } from "phosphor-solid";
 
 const App = () => {
   return (
@@ -43,7 +44,7 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+render( () => <App />, document.getElementById("root"));
 ```
 
 ### Props
@@ -51,18 +52,17 @@ ReactDOM.render(<App />, document.getElementById("root"));
 Icon components accept all props that you can pass to a normal SVG element, including inline `style` objects, `onClick` handlers, and more. The main way of styling them will usually be with the following props:
 
 - **color?**: `string` – Icon stroke/fill color. Can be any CSS color string, including `hex`, `rgb`, `rgba`, `hsl`, `hsla`, named colors, or the special `currentColor` variable.
-- **size?**: `number | string` – Icon height & width. As with standard React elements, this can be a number, or a string with units in `px`, `%`, `em`, `rem`, `pt`, `cm`, `mm`, `in`.
+- **size?**: `number | string` – Icon height & width. As with standard solid elements, this can be a number, or a string with units in `px`, `%`, `em`, `rem`, `pt`, `cm`, `mm`, `in`.
 - **weight?**: `"thin" | "light" | "regular" | "bold" | "fill" | "duotone"` – Icon weight/style. Can also be used, for example, to "toggle" an icon's state: a rating component could use Stars with `weight="regular"` to denote an empty star, and `weight="fill"` to denote a filled star.
 - **mirrored?**: `boolean` – Flip the icon horizontally. Can be useful in RTL languages where normal icon orientation is not appropriate.
 
 ### Context
 
-Phosphor takes advantage of React Context to make applying a default style to all icons simple. Create an `IconContext.Provider` at the root of the app (or anywhere above the icons in the tree) and pass in a configuration object with props to be applied by default to all icons:
+Phosphor takes advantage of Solid-js Context to make applying a default style to all icons simple. Create an `IconContext.Provider` at the root of the app (or anywhere above the icons in the tree) and pass in a configuration object with props to be applied by default to all icons:
 
 ```tsx
-import React from "react";
-import ReactDOM from "react-dom";
-import { IconContext, Horse, Heart, Cube } from "phosphor-react";
+import {render} from 'solid-js';
+import { IconContext, Horse, Heart, Cube } from "phosphor-solid";
 
 const App = () => {
   return (
@@ -82,8 +82,7 @@ const App = () => {
     </IconContext.Provider>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));
 ```
 
 You may create multiple Contexts for styling icons differently in separate regions of an application; icons use the nearest Context above them to determine their style.
@@ -129,7 +128,7 @@ const RotatingCube = () => {
 You may wish to import all icons at once for use in your project, though depending on your bundler this could prevent tree-shaking and make your app's bundle larger.
 
 ```tsx
-import * as Icon from "phosphor-react";
+import * as Icon from "phosphor-solid";
 ...
 <Icon.Smiley />
 <Icon.Folder weight="thin" />

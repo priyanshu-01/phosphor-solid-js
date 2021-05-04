@@ -8,9 +8,8 @@ const renderPathFor = (weight: string, color: string) => {
       return (
         <>
           <circle cx="128" cy="128" r="96" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="128" cy="80" r="16"/>
-  <circle cx="128" cy="128" r="16"/>
-  <circle cx="128" cy="176" r="16"/>
+  <circle cx="128" cy="100" r="16"/>
+  <circle cx="128" cy="156" r="16"/>
         </>
       )
     case "duotone":

@@ -9,10 +9,10 @@ const renderPathFor = (weight: string, color: string) => {
         <>
           <line x1="147.99951" y1="171.99353" x2="39.99951" y2="171.99365" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <line x1="215.99951" y1="171.99365" x2="187.99951" y2="171.99353" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="167.99951" cy="171.99353" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="167.99951" cy="171.99353" r="20" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <line x1="83.99951" y1="83.99353" x2="39.99951" y2="83.99294" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
   <line x1="215.99951" y1="83.99294" x2="123.99951" y2="83.99353" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <circle cx="103.99951" cy="83.99353" r="20" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="103.99951" cy="83.99353" r="20" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
