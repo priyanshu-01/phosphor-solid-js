@@ -1,5 +1,5 @@
 <img src="/meta/phosphor-mark-tight-yellow.png" width="128" align="right" />
-<img src="https://solidjs.com/assets/img/logo/without-wordmark/logo.svg" width="128" align="right" />
+<img src="https://www.solidjs.com/img/logo/without-wordmark/logo.svg" width="128" align="right" />
 
 # phosphor-solid
 **This is a fork from [phosphoricons.com](https://phosphoricons.com). All credits to its original creators**
@@ -137,9 +137,12 @@ import * as Icon from "phosphor-solid";
 
 ## Related Projects
 
-- [phosphor-vue](https://github.com/phosphor-icons/phosphor-vue) ▲ Phosphor icon component library for Vue
-- [phosphor-icons](https://github.com/phosphor-icons/phosphor-icons) ▲ Phosphor icons for Vanilla JS
-- [phosphor-figma](https://github.com/phosphor-icons/phosphor-figma) ▲ Phosphor icons Figma plugin
+- [phosphor-react-native](https://github.com/duongdev/phosphor-react-native) ▲ Phosphor icon component library for React Native
+- [phosphor-svelte](https://github.com/haruaki07/phosphor-svelte) ▲ Phosphor icons for Svelte apps
+- [phosphor-r](https://github.com/dreamRs/phosphoricons) ▲ Phosphor icon wrapper for R documents and applications
+- [blade-phosphor-icons](https://github.com/codeat3/blade-phosphor-icons) ▲ Phosphor icons in your Laravel Blade views
+
+If you've made a port of Phosphor and you want to see it here, just open a PR [here](https://github.com/phosphor-icons/phosphor-home)!
 
 ## License
 

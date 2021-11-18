@@ -16,9 +16,7 @@ const renderPathFor = (weight: string, color: string) => {
     case "duotone":
       return (
         <>
-          <g opacity="0.2">
-    <path d="M23.99414,96.85228h208L232,192a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8Z"/>
-  </g>
+          <path d="M23.99414,96.85228h208L232,192a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8Z" opacity="0.2"/>
   <rect x="24" y="56" width="208" height="144" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <line x1="167.99414" y1="168" x2="199.99414" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <line x1="119.99414" y1="168" x2="135.99414" y2="168" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>

@@ -1,7 +1,7 @@
-import { createContext, JSX, Component } from "solid-js";
+import type { JSX } from "solid-js";
+import { createContext, Component } from "solid-js";
 
-
-export interface IconProps extends JSX.SvgSVGAttributes<SVGSVGElement> {
+export interface IconProps extends JSX.HTMLAttributes<SVGSVGElement> {
   color?: string;
   size?: string | number;
   weight?: "thin" | "light" | "regular" | "bold" | "fill" | "duotone";
@@ -13,7 +13,7 @@ export type Icon = Component<IconProps>;
 export type IconContextProps = Required<
   Pick<IconProps, "color" | "size" | "weight" | "mirrored">
 > &
-JSX.SvgSVGAttributes<SVGSVGElement>;
+JSX.HTMLAttributes<SVGSVGElement>;
 
 export const IconContext = createContext<IconContextProps>({
   color: "currentColor",
