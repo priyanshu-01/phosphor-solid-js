@@ -31,9 +31,9 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build --format amd --transpileOnly",
-    "test": "tsdx test --passWithNoTests",
+    "test": "tsdx test --passWithNoTests ",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "tsdx build --transpileOnly ",
     "collate": "node bin/collate.js",
     "assemble": "node bin/assemble.js",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,vue}\""
