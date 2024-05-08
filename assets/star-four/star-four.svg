@@ -1,4 +1,1 @@
-<svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" fill="none"/>
-  <path d="M158.72416,163.50856l-23.20581,63.816a8,8,0,0,1-15.0367,0l-23.20581-63.816a8,8,0,0,0-4.7844-4.7844l-63.816-23.20581a8,8,0,0,1,0-15.0367l63.816-23.20581a8,8,0,0,0,4.7844-4.7844l23.20581-63.816a8,8,0,0,1,15.0367,0l23.20581,63.816a8,8,0,0,0,4.7844,4.7844l63.816,23.20581a8,8,0,0,1,0,15.0367l-63.816,23.20581A8,8,0,0,0,158.72416,163.50856Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M159.82,159.82l-24.34,66.94a8,8,0,0,1-15,0L96.18,159.82,29.24,135.48a8,8,0,0,1,0-15L96.18,96.18l24.34-66.94a8,8,0,0,1,15,0l24.34,66.94,66.94,24.34a8,8,0,0,1,0,15Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
