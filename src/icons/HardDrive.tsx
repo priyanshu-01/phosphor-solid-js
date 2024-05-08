@@ -7,43 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="24" y="72" width="208" height="112" rx="8" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="180" cy="128" r="16"/>
+          <rect x="24" y="72" width="208" height="112" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><circle cx="180" cy="128" r="16"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <rect x="24" y="72" width="208" height="112" rx="8" opacity="0.2"/>
-  <rect x="24" y="72" width="208" height="112" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="188" cy="128" r="12"/>
+          <rect x="24" y="72" width="208" height="112" rx="8" opacity="0.2"/><rect x="24" y="72" width="208" height="112" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="188" cy="128" r="12"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M224,64H32A16.01833,16.01833,0,0,0,16,80v96a16.01833,16.01833,0,0,0,16,16H224a16.01833,16.01833,0,0,0,16-16V80A16.01833,16.01833,0,0,0,224,64Zm-35.99951,76a12,12,0,1,1,12-12A12,12,0,0,1,188.00049,140Z"/>
+          <path d="M224,64H32A16,16,0,0,0,16,80v96a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V80A16,16,0,0,0,224,64Zm-36,76a12,12,0,1,1,12-12A12,12,0,0,1,188,140Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <rect x="24" y="72" width="208" height="112" rx="8" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="188" cy="128" r="10"/>
+          <rect x="24" y="72" width="208" height="112" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><circle cx="188" cy="128" r="10"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="24" y="72" width="208" height="112" rx="8" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="188" cy="128" r="8"/>
+          <rect x="24" y="72" width="208" height="112" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><circle cx="188" cy="128" r="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="24" y="72" width="208" height="112" rx="8" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="188" cy="128" r="12"/>
+          <rect x="24" y="72" width="208" height="112" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="188" cy="128" r="12"/>
         </>
       )
     default:

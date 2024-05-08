@@ -7,42 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polyline points="163.882 148.118 227.882 148.118 227.882 84.118" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M32,184a96,96,0,0,1,163.88225-67.88229l32,32" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+          <polyline points="168 152 232 152 232 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><path d="M32,184a96,96,0,0,1,163.88-67.88L232,152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <polyline points="163.882 148.118 227.882 148.118 227.882 84.118" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M32,184a96,96,0,0,1,163.88225-67.88229l32,32" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <polygon points="168 152 232 152 232 88 168 152" opacity="0.2"/><polygon points="168 152 232 152 232 88 168 152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M32,184a96,96,0,0,1,163.88-67.88L200,120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M235.88184,84.11816v64a8.0004,8.0004,0,0,1-8,8h-64a8.00064,8.00064,0,0,1-5.65723-13.65722l26.08032-26.08008A87.99487,87.99487,0,0,0,40,184a8,8,0,0,1-16,0,104.00481,104.00481,0,0,1,171.667-78.98145l26.55762-26.55761a8.00065,8.00065,0,0,1,13.65723,5.65722Z"/>
+          <path d="M240,88v64a8,8,0,0,1-8,8H168a8,8,0,0,1-5.66-13.66l26.19-26.18A88,88,0,0,0,40,184a8,8,0,0,1-16,0,104,104,0,0,1,175.86-75.18l26.48-26.48A8,8,0,0,1,240,88Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <polyline points="163.882 148.118 227.882 148.118 227.882 84.118" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <path d="M32,184a96,96,0,0,1,163.88225-67.88229l32,32" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+          <polyline points="168 152 232 152 232 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M32,184a96,96,0,0,1,163.88-67.88L232,152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polyline points="163.882 148.118 227.882 148.118 227.882 84.118" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <path d="M32,184a96,96,0,0,1,163.88225-67.88229l32,32" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+          <polyline points="168 152 232 152 232 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M32,184a96,96,0,0,1,163.88-67.88L232,152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polyline points="163.882 148.118 227.882 148.118 227.882 84.118" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M32,184a96,96,0,0,1,163.88225-67.88229l32,32" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <polyline points="168 152 232 152 232 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M32,184a96,96,0,0,1,163.88-67.88L232,152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

@@ -7,77 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <circle cx="60" cy="60" r="16"/>
-  <circle cx="128" cy="60" r="16"/>
-  <circle cx="196" cy="60" r="16"/>
-  <circle cx="60" cy="128" r="16"/>
-  <circle cx="128" cy="128" r="16"/>
-  <circle cx="196" cy="128" r="16"/>
-  <circle cx="60" cy="196" r="16"/>
-  <circle cx="128" cy="196" r="16"/>
-  <circle cx="196" cy="196" r="16"/>
+          <circle cx="60" cy="60" r="16"/><circle cx="128" cy="60" r="16"/><circle cx="196" cy="60" r="16"/><circle cx="60" cy="128" r="16"/><circle cx="128" cy="128" r="16"/><circle cx="196" cy="128" r="16"/><circle cx="60" cy="196" r="16"/><circle cx="128" cy="196" r="16"/><circle cx="196" cy="196" r="16"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <circle cx="60" cy="60" r="12"/>
-  <circle cx="128" cy="60" r="12"/>
-  <circle cx="196" cy="60" r="12"/>
-  <circle cx="60" cy="128" r="12"/>
-  <circle cx="128" cy="128" r="12"/>
-  <circle cx="196" cy="128" r="12"/>
-  <circle cx="60" cy="196" r="12"/>
-  <circle cx="128" cy="196" r="12"/>
-  <circle cx="196" cy="196" r="12"/>
+          <rect x="32" y="32" width="192" height="192" rx="16" opacity="0.2"/><circle cx="60" cy="60" r="12"/><circle cx="128" cy="60" r="12"/><circle cx="196" cy="60" r="12"/><circle cx="60" cy="128" r="12"/><circle cx="128" cy="128" r="12"/><circle cx="196" cy="128" r="12"/><circle cx="60" cy="196" r="12"/><circle cx="128" cy="196" r="12"/><circle cx="196" cy="196" r="12"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M60,48A12,12,0,1,0,72,60,12.01375,12.01375,0,0,0,60,48Zm68,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,48Zm68,24a12,12,0,1,0-12-12A12.01375,12.01375,0,0,0,196,72ZM60,184a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,60,184Zm68,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,184Zm68,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,196,184ZM60,116a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,60,116Zm68,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,116Zm68,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,196,116Z"/>
+          <path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM76,192a12,12,0,1,1,12-12A12,12,0,0,1,76,192Zm0-52a12,12,0,1,1,12-12A12,12,0,0,1,76,140Zm0-52A12,12,0,1,1,88,76,12,12,0,0,1,76,88Zm52,104a12,12,0,1,1,12-12A12,12,0,0,1,128,192Zm0-52a12,12,0,1,1,12-12A12,12,0,0,1,128,140Zm0-52a12,12,0,1,1,12-12A12,12,0,0,1,128,88Zm52,104a12,12,0,1,1,12-12A12,12,0,0,1,180,192Zm0-52a12,12,0,1,1,12-12A12,12,0,0,1,180,140Zm0-52a12,12,0,1,1,12-12A12,12,0,0,1,180,88Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <circle cx="60" cy="60" r="10"/>
-  <circle cx="128" cy="60" r="10"/>
-  <circle cx="196" cy="60" r="10"/>
-  <circle cx="60" cy="128" r="10"/>
-  <circle cx="128" cy="128" r="10"/>
-  <circle cx="196" cy="128" r="10"/>
-  <circle cx="60" cy="196" r="10"/>
-  <circle cx="128" cy="196" r="10"/>
-  <circle cx="196" cy="196" r="10"/>
+          <circle cx="60" cy="60" r="10"/><circle cx="128" cy="60" r="10"/><circle cx="196" cy="60" r="10"/><circle cx="60" cy="128" r="10"/><circle cx="128" cy="128" r="10"/><circle cx="196" cy="128" r="10"/><circle cx="60" cy="196" r="10"/><circle cx="128" cy="196" r="10"/><circle cx="196" cy="196" r="10"/>
         </>
       )
     case "thin":
       return (
         <>
-          <circle cx="60" cy="60" r="8"/>
-  <circle cx="128" cy="60" r="8"/>
-  <circle cx="196" cy="60" r="8"/>
-  <circle cx="60" cy="128" r="8"/>
-  <circle cx="128" cy="128" r="8"/>
-  <circle cx="196" cy="128" r="8"/>
-  <circle cx="60" cy="196" r="8"/>
-  <circle cx="128" cy="196" r="8"/>
-  <circle cx="196" cy="196" r="8"/>
+          <circle cx="60" cy="60" r="8"/><circle cx="128" cy="60" r="8"/><circle cx="196" cy="60" r="8"/><circle cx="60" cy="128" r="8"/><circle cx="128" cy="128" r="8"/><circle cx="196" cy="128" r="8"/><circle cx="60" cy="196" r="8"/><circle cx="128" cy="196" r="8"/><circle cx="196" cy="196" r="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <circle cx="60" cy="60" r="12"/>
-  <circle cx="128" cy="60" r="12"/>
-  <circle cx="196" cy="60" r="12"/>
-  <circle cx="60" cy="128" r="12"/>
-  <circle cx="128" cy="128" r="12"/>
-  <circle cx="196" cy="128" r="12"/>
-  <circle cx="60" cy="196" r="12"/>
-  <circle cx="128" cy="196" r="12"/>
-  <circle cx="196" cy="196" r="12"/>
+          <circle cx="60" cy="60" r="12"/><circle cx="128" cy="60" r="12"/><circle cx="196" cy="60" r="12"/><circle cx="60" cy="128" r="12"/><circle cx="128" cy="128" r="12"/><circle cx="196" cy="128" r="12"/><circle cx="60" cy="196" r="12"/><circle cx="128" cy="196" r="12"/><circle cx="196" cy="196" r="12"/>
         </>
       )
     default:

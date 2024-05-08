@@ -7,44 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <rect x="-6" y="102" width="176" height="52" rx="8" transform="translate(210 46) rotate(90)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="86" y="102" width="176" height="52" rx="8" transform="translate(302 -46) rotate(90)" stroke-width="24" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="-6" y="102" width="176" height="52" rx="8" transform="translate(210 46) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><rect x="86" y="102" width="176" height="52" rx="8" transform="translate(302 -46) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" opacity="0.2"/>
-  <rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" opacity="0.2"/>
-  <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" opacity="0.2"/><rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" opacity="0.2"/><rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M120,48V208a16.01833,16.01833,0,0,1-16,16H64a16.01833,16.01833,0,0,1-16-16V48A16.01833,16.01833,0,0,1,64,32h40A16.01833,16.01833,0,0,1,120,48Zm72-16H152a16.01833,16.01833,0,0,0-16,16V208a16.01833,16.01833,0,0,0,16,16h40a16.01833,16.01833,0,0,0,16-16V48A16.01833,16.01833,0,0,0,192,32Z"/>
+          <path d="M120,48V208a16,16,0,0,1-16,16H64a16,16,0,0,1-16-16V48A16,16,0,0,1,64,32h40A16,16,0,0,1,120,48Zm72-16H152a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,192,32Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" stroke-width="12" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" stroke-width="8" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" stroke-width="16" stroke={color} stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="-4" y="100" width="176" height="56" rx="8" transform="translate(212 44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="84" y="100" width="176" height="56" rx="8" transform="translate(300 -44) rotate(90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

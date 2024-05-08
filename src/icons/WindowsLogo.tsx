@@ -7,56 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <polygon points="100 108 100 61.091 40 72 40 108 100 108" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <polygon points="216 108 216 40 140 53.818 140 108 216 108" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <polygon points="100 148 100 194.909 40 184 40 148 100 148" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <polygon points="216 148 216 216 140 202.182 140 148 216 148" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+          <polygon points="92 108 92 61.09 32 72 32 108 92 108" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><polygon points="208 108 208 40 132 53.82 132 108 208 108" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><polygon points="92 148 92 194.91 32 184 32 148 92 148" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><polygon points="208 148 208 216 132 202.18 132 148 208 148" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <polygon points="216 216 136 201.455 136 201.455 136 144 216 144 216 216" opacity="0.2"/>
-  <polygon points="104 195.636 40 184 40 144 104 144 104 195.636" opacity="0.2"/>
-  <polygon points="216 40 136 54.545 136 54.545 136 112 216 112 216 40" opacity="0.2"/>
-  <polygon points="104 60.364 40 72 40 112 104 112 104 60.364" opacity="0.2"/>
-  <polygon points="216 216 136 201.455 136 201.455 136 144 216 144 216 216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="104 195.636 40 184 40 144 104 144 104 195.636" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="216 40 136 54.545 136 54.545 136 112 216 112 216 40" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="104 60.364 40 72 40 112 104 112 104 60.364" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <polygon points="208 216 128 201.46 128 201.46 128 144 208 144 208 216" opacity="0.2"/><polygon points="96 195.64 32 184 32 144 96 144 96 195.64" opacity="0.2"/><polygon points="208 40 128 54.55 128 54.55 128 112 208 112 208 40" opacity="0.2"/><polygon points="96 60.36 32 72 32 112 96 112 96 60.36" opacity="0.2"/><polygon points="208 216 128 201.46 128 201.46 128 144 208 144 208 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="96 195.64 32 184 32 144 96 144 96 195.64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="208 40 128 54.55 128 54.55 128 112 208 112 208 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="96 60.36 32 72 32 112 96 112 96 60.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M112,144v51.63672a7.9983,7.9983,0,0,1-9.43115,7.87061l-64-11.63623A8.00019,8.00019,0,0,1,32,184V144a8.00008,8.00008,0,0,1,8-8h64A8.00008,8.00008,0,0,1,112,144ZM109.126,54.2217a7.995,7.995,0,0,0-6.55713-1.729l-64,11.63623A8.00017,8.00017,0,0,0,32,72v40a8.00008,8.00008,0,0,0,8,8h64a8.00008,8.00008,0,0,0,8-8V60.3633A7.99853,7.99853,0,0,0,109.126,54.2217ZM216,136H136a8.00008,8.00008,0,0,0-8,8v57.45459a7.99967,7.99967,0,0,0,6.56885,7.87061l80,14.5459A8.0001,8.0001,0,0,0,224,216V144A8.00008,8.00008,0,0,0,216,136Zm5.126-102.14209a7.99714,7.99714,0,0,0-6.55713-1.729l-80,14.5459A7.99965,7.99965,0,0,0,128,54.54543V112a8.00008,8.00008,0,0,0,8,8h80a8.00008,8.00008,0,0,0,8-8V40A8.00028,8.00028,0,0,0,221.126,33.85793Z"/>
+          <path d="M104,144v51.64a8,8,0,0,1-8,8,8.54,8.54,0,0,1-1.43-.13l-64-11.64A8,8,0,0,1,24,184V144a8,8,0,0,1,8-8H96A8,8,0,0,1,104,144Zm-2.87-89.78a8,8,0,0,0-6.56-1.73l-64,11.64A8,8,0,0,0,24,72v40a8,8,0,0,0,8,8H96a8,8,0,0,0,8-8V60.36A8,8,0,0,0,101.13,54.22ZM208,136H128a8,8,0,0,0-8,8v57.45a8,8,0,0,0,6.57,7.88l80,14.54A7.61,7.61,0,0,0,208,224a8,8,0,0,0,8-8V144A8,8,0,0,0,208,136Zm5.13-102.14a8,8,0,0,0-6.56-1.73l-80,14.55A8,8,0,0,0,120,54.55V112a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V40A8,8,0,0,0,213.13,33.86Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <polygon points="216 216 136 201.455 136 201.455 136 144 216 144 216 216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <polygon points="104 195.636 40 184 40 144 104 144 104 195.636" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <polygon points="216 40 136 54.545 136 54.545 136 112 216 112 216 40" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <polygon points="104 60.364 40 72 40 112 104 112 104 60.364" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+          <polygon points="208 216 128 201.46 128 201.46 128 144 208 144 208 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><polygon points="96 195.64 32 184 32 144 96 144 96 195.64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><polygon points="208 40 128 54.55 128 54.55 128 112 208 112 208 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><polygon points="96 60.36 32 72 32 112 96 112 96 60.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <polygon points="216 216 136 201.455 136 201.455 136 144 216 144 216 216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <polygon points="104 195.636 40 184 40 144 104 144 104 195.636" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <polygon points="216 40 136 54.545 136 54.545 136 112 216 112 216 40" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <polygon points="104 60.364 40 72 40 112 104 112 104 60.364" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+          <polygon points="208 216 128 201.46 128 201.46 128 144 208 144 208 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><polygon points="96 195.64 32 184 32 144 96 144 96 195.64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><polygon points="208 40 128 54.55 128 54.55 128 112 208 112 208 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><polygon points="96 60.36 32 72 32 112 96 112 96 60.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <polygon points="216 216 136 201.455 136 201.455 136 144 216 144 216 216" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="104 195.636 40 184 40 144 104 144 104 195.636" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="216 40 136 54.545 136 54.545 136 112 216 112 216 40" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <polygon points="104 60.364 40 72 40 112 104 112 104 60.364" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <polygon points="208 216 128 201.46 128 201.46 128 144 208 144 208 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="96 195.64 32 184 32 144 96 144 96 195.64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="208 40 128 54.55 128 54.55 128 112 208 112 208 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="96 60.36 32 72 32 112 96 112 96 60.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

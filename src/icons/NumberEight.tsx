@@ -7,42 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <path d="M178.76923,71.66667a46.108,46.108,0,0,1-14.87,33.70542,53.13546,53.13546,0,0,1-71.79854,0,45.63467,45.63467,0,0,1,0-67.41085,53.13546,53.13546,0,0,1,71.79854,0A46.108,46.108,0,0,1,178.76923,71.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
-  <path d="M188,175.66667a54.49122,54.49122,0,0,1-17.57359,39.83368,62.79644,62.79644,0,0,1-84.85282,0,53.93188,53.93188,0,0,1,0-79.66737,62.79644,62.79644,0,0,1,84.85282,0A54.49124,54.49124,0,0,1,188,175.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+          <circle cx="128" cy="168" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/><circle cx="128" cy="80" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <path d="M178.76923,71.66667a46.108,46.108,0,0,1-14.87,33.70542,53.13546,53.13546,0,0,1-71.79854,0,45.63467,45.63467,0,0,1,0-67.41085,53.13546,53.13546,0,0,1,71.79854,0A46.108,46.108,0,0,1,178.76923,71.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M188,175.66667a54.49122,54.49122,0,0,1-17.57359,39.83368,62.79644,62.79644,0,0,1-84.85282,0,53.93188,53.93188,0,0,1,0-79.66737,62.79644,62.79644,0,0,1,84.85282,0A54.49124,54.49124,0,0,1,188,175.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <path d="M216,40V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V40A16,16,0,0,1,56,24H200A16,16,0,0,1,216,40Z" opacity="0.2"/><circle cx="128" cy="168" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="128" cy="80" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M175.90234,130.00049a68.12024,68.12024,0,0,0-16.36377-11.356,58.78324,58.78324,0,0,0,9.83643-7.43994,53.63156,53.63156,0,0,0,0-79.0752,61.13213,61.13213,0,0,0-82.75,0,53.63156,53.63156,0,0,0,0,79.0752,58.76231,58.76231,0,0,0,9.83667,7.43994,68.1188,68.1188,0,0,0-16.364,11.35645,61.93012,61.93012,0,0,0,0,91.332,70.79516,70.79516,0,0,0,95.80468-.00049,61.93012,61.93012,0,0,0,0-91.332ZM97.57617,99.53955a37.63752,37.63752,0,0,1,0-55.74609,45.13922,45.13922,0,0,1,60.84766,0,37.63752,37.63752,0,0,1,0,55.74609,45.13783,45.13783,0,0,1-60.84766,0Zm67.375,110.12842a54.80089,54.80089,0,0,1-73.90234.00049,45.936,45.936,0,0,1,0-68.00293,54.80089,54.80089,0,0,1,73.90234-.00049,45.936,45.936,0,0,1,0,68.00293Z"/>
+          <path d="M108,92a20,20,0,1,1,20,20A20,20,0,0,1,108,92Zm20,36a28,28,0,1,0,28,28A28,28,0,0,0,128,128Zm88-88V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V40A16,16,0,0,1,56,24H200A16,16,0,0,1,216,40ZM172,156a44,44,0,0,0-20.23-37,36,36,0,1,0-47.54,0A44,44,0,1,0,172,156Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <path d="M178.76923,71.66667a46.108,46.108,0,0,1-14.87,33.70542,53.13546,53.13546,0,0,1-71.79854,0,45.63467,45.63467,0,0,1,0-67.41085,53.13546,53.13546,0,0,1,71.79854,0A46.108,46.108,0,0,1,178.76923,71.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-  <path d="M188,175.66667a54.49122,54.49122,0,0,1-17.57359,39.83368,62.79644,62.79644,0,0,1-84.85282,0,53.93188,53.93188,0,0,1,0-79.66737,62.79644,62.79644,0,0,1,84.85282,0A54.49124,54.49124,0,0,1,188,175.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+          <circle cx="128" cy="168" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><circle cx="128" cy="80" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
         </>
       )
     case "thin":
       return (
         <>
-          <path d="M178.76923,71.66667a46.108,46.108,0,0,1-14.87,33.70542,53.13546,53.13546,0,0,1-71.79854,0,45.63467,45.63467,0,0,1,0-67.41085,53.13546,53.13546,0,0,1,71.79854,0A46.108,46.108,0,0,1,178.76923,71.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <path d="M188,175.66667a54.49122,54.49122,0,0,1-17.57359,39.83368,62.79644,62.79644,0,0,1-84.85282,0,53.93188,53.93188,0,0,1,0-79.66737,62.79644,62.79644,0,0,1,84.85282,0A54.49124,54.49124,0,0,1,188,175.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+          <circle cx="128" cy="168" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><circle cx="128" cy="80" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <path d="M178.76923,71.66667a46.108,46.108,0,0,1-14.87,33.70542,53.13546,53.13546,0,0,1-71.79854,0,45.63467,45.63467,0,0,1,0-67.41085,53.13546,53.13546,0,0,1,71.79854,0A46.108,46.108,0,0,1,178.76923,71.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-  <path d="M188,175.66667a54.49122,54.49122,0,0,1-17.57359,39.83368,62.79644,62.79644,0,0,1-84.85282,0,53.93188,53.93188,0,0,1,0-79.66737,62.79644,62.79644,0,0,1,84.85282,0A54.49124,54.49124,0,0,1,188,175.66667Z" fill="none" stroke={color} stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          <circle cx="128" cy="168" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="128" cy="80" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
         </>
       )
     default:

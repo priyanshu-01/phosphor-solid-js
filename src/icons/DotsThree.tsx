@@ -7,47 +7,37 @@ const renderPathFor = (weight: string, color: string) => {
     case "bold":
       return (
         <>
-          <circle cx="128" cy="128" r="16"/>
-  <circle cx="64" cy="128" r="16"/>
-  <circle cx="192" cy="128" r="16"/>
+          <circle cx="128" cy="128" r="16"/><circle cx="60" cy="128" r="16"/><circle cx="196" cy="128" r="16"/>
         </>
       )
     case "duotone":
       return (
         <>
-          <circle cx="128" cy="128" r="12"/>
-  <circle cx="192" cy="128" r="12"/>
-  <circle cx="64" cy="128" r="12"/>
+          <rect x="16" y="80" width="224" height="96" rx="16" opacity="0.2"/><circle cx="128" cy="128" r="12"/><circle cx="196" cy="128" r="12"/><circle cx="60" cy="128" r="12"/>
         </>
       )
     case "fill":
       return (
         <>
-          <path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Zm52-12a12,12,0,1,0,12,12A12,12,0,0,0,192,116ZM64,116a12,12,0,1,0,12,12A12,12,0,0,0,64,116Z"/>
+          <path d="M224,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V96A16,16,0,0,0,224,80ZM60,140a12,12,0,1,1,12-12A12,12,0,0,1,60,140Zm68,0a12,12,0,1,1,12-12A12,12,0,0,1,128,140Zm68,0a12,12,0,1,1,12-12A12,12,0,0,1,196,140Z"/>
         </>
       )
     case "light":
       return (
         <>
-          <circle cx="128" cy="128" r="10"/>
-  <circle cx="64" cy="128" r="10"/>
-  <circle cx="192" cy="128" r="10"/>
+          <circle cx="128" cy="128" r="10"/><circle cx="60" cy="128" r="10"/><circle cx="196" cy="128" r="10"/>
         </>
       )
     case "thin":
       return (
         <>
-          <circle cx="128" cy="128" r="8"/>
-  <circle cx="64" cy="128" r="8"/>
-  <circle cx="192" cy="128" r="8"/>
+          <circle cx="128" cy="128" r="8"/><circle cx="60" cy="128" r="8"/><circle cx="196" cy="128" r="8"/>
         </>
       )
     case "regular":
       return (
         <>
-          <circle cx="128" cy="128" r="12"/>
-  <circle cx="192" cy="128" r="12"/>
-  <circle cx="64" cy="128" r="12"/>
+          <circle cx="128" cy="128" r="12"/><circle cx="196" cy="128" r="12"/><circle cx="60" cy="128" r="12"/>
         </>
       )
     default:
